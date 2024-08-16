@@ -1,0 +1,14 @@
+#tsparticles{
+  height: 800px;
+}
+
+.particles-content{
+  padding: 200px;
+  font-size: larger;
+  color: antiquewhite;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  z-index: 100;
+  position: absolute;
+  top:50;
+  left:0;
+}
