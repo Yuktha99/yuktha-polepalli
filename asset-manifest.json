@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/yuktha-polepalli/static/css/main.67f7c012.css",
-    "main.js": "/yuktha-polepalli/static/js/main.b8e152a7.js",
+    "main.css": "/yuktha-polepalli/static/css/main.d5ad923a.css",
+    "main.js": "/yuktha-polepalli/static/js/main.7aeefda1.js",
     "static/js/453.2a416b5b.chunk.js": "/yuktha-polepalli/static/js/453.2a416b5b.chunk.js",
     "static/media/profile_pic_new.JPG": "/yuktha-polepalli/static/media/profile_pic_new.e77dc42271c993c43c15.JPG",
+    "static/media/goodbye.png": "/yuktha-polepalli/static/media/goodbye.a93a4e59ed58beb74156.png",
+    "static/media/developer.png": "/yuktha-polepalli/static/media/developer.72d649f8d005a7fa597c.png",
+    "static/media/resume.png": "/yuktha-polepalli/static/media/resume.60c4f53d340d7c84130f.png",
     "index.html": "/yuktha-polepalli/index.html",
-    "main.67f7c012.css.map": "/yuktha-polepalli/static/css/main.67f7c012.css.map",
-    "main.b8e152a7.js.map": "/yuktha-polepalli/static/js/main.b8e152a7.js.map",
+    "main.d5ad923a.css.map": "/yuktha-polepalli/static/css/main.d5ad923a.css.map",
+    "main.7aeefda1.js.map": "/yuktha-polepalli/static/js/main.7aeefda1.js.map",
     "453.2a416b5b.chunk.js.map": "/yuktha-polepalli/static/js/453.2a416b5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67f7c012.css",
-    "static/js/main.b8e152a7.js"
+    "static/css/main.d5ad923a.css",
+    "static/js/main.7aeefda1.js"
   ]
 }
