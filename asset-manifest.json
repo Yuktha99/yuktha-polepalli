@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/yuktha-polepalli/static/css/main.67f7c012.css",
+    "main.js": "/yuktha-polepalli/static/js/main.b8e152a7.js",
+    "static/js/453.2a416b5b.chunk.js": "/yuktha-polepalli/static/js/453.2a416b5b.chunk.js",
+    "static/media/profile_pic_new.JPG": "/yuktha-polepalli/static/media/profile_pic_new.e77dc42271c993c43c15.JPG",
+    "index.html": "/yuktha-polepalli/index.html",
+    "main.67f7c012.css.map": "/yuktha-polepalli/static/css/main.67f7c012.css.map",
+    "main.b8e152a7.js.map": "/yuktha-polepalli/static/js/main.b8e152a7.js.map",
+    "453.2a416b5b.chunk.js.map": "/yuktha-polepalli/static/js/453.2a416b5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67f7c012.css",
+    "static/js/main.b8e152a7.js"
+  ]
+}
