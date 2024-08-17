@@ -37,3 +37,17 @@
   }
 }
 
+/* common styles */
+
+.section-container{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-heading{
+  font-size: 35px;
+  font-weight: 500;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}

@@ -5,6 +5,12 @@ import { useEffect, useState } from "react";
 import { particleProperties } from "../../constants/bg_properties";
 
 import './home.css'
+import About from '../about/About';
+import Skills from '../skills/Skills';
+import Projects from '../projects/Projects';
+import Contact from '../contact/Contact';
+import Education from '../education/Education';
+import Experience from '../experience/Experience';
 
 const Home = () => {
   const [init, setInit] = useState(false);
@@ -21,7 +27,7 @@ const Home = () => {
     console.log(container);
   };
   return (
-    <div>
+    <div id="home">
       {init && (
         <div className="particles-container">
           <Particles
@@ -36,13 +42,14 @@ const Home = () => {
     {/* <div className='particles-content'>
       <p>Yuktha Polepalli</p>
     </div> */}
-    <div>dsnsfmeanf</div>
-    <div>dsnsfmeanf</div>
-    <div>dsnsfmeanf</div>
-    <div>dsnsfmeanf</div>
-    <div>dsnsfmeanf</div>
-    <div>dsnsfmeanf</div>
-    <div>dsnsfmeanf</div>
+    <About/>
+    <Projects/>
+    <Skills/>
+    <Experience/>
+    <Education/>
+    <Contact/>
+  
+   
 
     </div>
   )

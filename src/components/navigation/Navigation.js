@@ -22,10 +22,10 @@ const Navigation = () => {
           <Navbar.Collapse>
             <Nav className="justify-content-end">
               <Nav.Item>
-                <Nav.Link href="#home">About</Nav.Link>
+                <Nav.Link href="#about">About</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#link">Projects</Nav.Link>
+                <Nav.Link href="#projects">Projects</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="#skills">Skills</Nav.Link>
