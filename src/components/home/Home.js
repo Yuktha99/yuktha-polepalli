@@ -3,7 +3,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import { useEffect, useState } from "react";
 import { particleProperties } from "../../constants/bg_properties";
-import ProfilePic from "../../images/profile_pic.JPG";
+import ProfilePic from "../../images/profile_pic_new.JPG";
 
 import "./home.css";
 import TextAnimation from "./TextAnimation";
