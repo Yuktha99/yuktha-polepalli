@@ -1,26 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./about.css";
 import LinkedInLogo from "../../images/linkedin.png";
 import ResumeLogo from "../../images/resume.png";
 import { linkedIn_url, resume_link } from "../../constants/constants";
-// import ResumeModal from "./ResumeModal";
+import ResumeModal from "./ResumeModal";
 // import AboutLogo from "../../images/id-card.png";
 
 
 const About = () => {
 
-  // const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  //   const openModal = () => setIsOpen(true);
-  //   const closeModal = () => setIsOpen(false);
+    const openModal = () => setIsOpen(true);
+    const closeModal = () => setIsOpen(false);
 
   const onLinkedInClick = ()=>{
     window.open(linkedIn_url, "_blank");
   }
 
   const onResumeClick = () =>{
-    window.open(resume_link,"_blank")
+    openModal()
   }
 
   return (
@@ -51,14 +51,14 @@ const About = () => {
       <div className="about-buttons">
         <button onClick={onLinkedInClick}>
           Linkedin{" "}
-          <img src={LinkedInLogo} width={25} height={22} alt="linkedin" />
+          <img src={LinkedInLogo}  alt="linkedin" />
         </button>
         <button onClick={onResumeClick}>
           My Resume
-          <img src={ResumeLogo} width={27} height={25} alt="resume" />
+          <img src={ResumeLogo} alt="resume" />
         </button>
       </div>
-      {/* <ResumeModal isOpen={isOpen} closeModal={closeModal}/> */}
+      <ResumeModal show={isOpen} handleClose={closeModal} pdfFile={resume_link}/>
     </div>
   );
 };

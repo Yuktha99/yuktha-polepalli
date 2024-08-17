@@ -71,8 +71,8 @@
   }
 
   .particles-content .text-container img{
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     margin-bottom: 0px !important;
   }
 
@@ -83,7 +83,7 @@
   }
 
   .text-container{
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
     padding-left: 25px;
     padding-top: 10px;
