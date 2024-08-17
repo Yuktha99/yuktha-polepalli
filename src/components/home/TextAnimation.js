@@ -40,7 +40,7 @@ const TextAnimation = ({ words, delay, wordDelay, infinite }) => {
     return () => clearTimeout(timeout);
   }, [currentLetterIndex, currentWordIndex, delay, wordDelay, infinite, words]);
 
-  return <span  style={{ color: currentColor,fontSize: '60px',letterSpacing:'-5px' }}>{currentWord}</span>;
+  return <span  style={{ color: currentColor}}>{currentWord}</span>;
 };
 
 export default TextAnimation;

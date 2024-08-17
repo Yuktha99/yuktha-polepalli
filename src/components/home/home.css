@@ -3,7 +3,7 @@
 }
 
 .particles-content{
-  padding: 200px;
+  padding:10% 20%;
   font-size: larger;
   color: antiquewhite;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -21,8 +21,6 @@
   width: 400px;
   height: 400px;
   border-radius: 200px;
-  border: 10px solid #fe8d59;
-  
 }
 
 .profile-pic:hover{
@@ -41,4 +39,38 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+}
+
+.text-container div{
+  text-align: start;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #tsparticles{
+    height: 500px;
+  }
+
+  .particles-content{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 150px;
+  }
+
+  .profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+
+  .text-container{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
