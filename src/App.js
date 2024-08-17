@@ -8,6 +8,7 @@ import Contact from "./components/contact/Contact";
 import Education from "./components/education/Education";
 import Experience from "./components/experience/Experience";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -16,11 +17,12 @@ function App() {
       <Navigation />
       <Home />
       <About />
-      <Projects />
       <Skills />
+      <Projects />
       <Experience />
       <Education />
       <Contact />
+      <Footer />
     </div>
   );
 }
