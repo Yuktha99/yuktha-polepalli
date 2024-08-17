@@ -9,6 +9,7 @@ import Education from "./components/education/Education";
 import Experience from "./components/experience/Experience";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 function App() {
   return (
     <div className="App">

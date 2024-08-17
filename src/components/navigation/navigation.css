@@ -7,14 +7,14 @@
 }
 
 .navigation-bar{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 300;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
   background-color: #00000070;
 }
 
 .navbar-brand-text{
-  font-size: 30px !important;
+  font-size: 25px !important;
   font-weight: bold;
   color: gray;
 }

@@ -5,7 +5,7 @@ import './experience.css'
 const Experience = () => {
   return (
     <div className="section-container" id="experience">
-      <div className="section-heading">About</div>
+      <div className="section-heading">Experience</div>
     </div>
   )
 }

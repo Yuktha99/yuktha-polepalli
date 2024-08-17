@@ -1,9 +1,9 @@
 #tsparticles{
-  height: 800px;
+  height: 450px;
 }
 
 .particles-content{
-  padding:10% 20%;
+  margin:6% 20% 6% 15%;
   font-size: larger;
   color: antiquewhite;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -13,13 +13,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  letter-spacing: -1px;
 }
 
-
+.hello-text{
+ 
+}
 
 .profile-pic{
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 200px;
 }
 
@@ -33,17 +36,26 @@
 }
 
 .text-container{
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 25px;
   padding-left: 50px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
 .text-container div{
   text-align: start;
+  align-items: center;
 }
+
+.particles-content .text-container img{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
 
@@ -55,7 +67,13 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-top: 150px;
+    padding-top: 100px;
+  }
+
+  .particles-content .text-container img{
+    height: 10px;
+    width: 10px;
+    margin-bottom: 0px !important;
   }
 
   .profile-pic{
@@ -65,7 +83,7 @@
   }
 
   .text-container{
-    font-size: 25px;
+    font-size: 10px;
     font-weight: bold;
     padding-left: 25px;
     padding-top: 10px;
