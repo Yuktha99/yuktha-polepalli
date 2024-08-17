@@ -1,19 +1,21 @@
-import React from 'react'
+import React from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import { useEffect, useState } from "react";
 import { particleProperties } from "../../constants/bg_properties";
+import ProfilePic from "../../images/profile_pic.JPG";
 
-import './home.css'
-import About from '../about/About';
-import Skills from '../skills/Skills';
-import Projects from '../projects/Projects';
-import Contact from '../contact/Contact';
-import Education from '../education/Education';
-import Experience from '../experience/Experience';
+import "./home.css";
+import TextAnimation from "./TextAnimation";
 
 const Home = () => {
   const [init, setInit] = useState(false);
+
+  const animation_words = [
+    'Yuktha',
+    'a Software Engineer',
+    'a Full Stack Developer'
+  ]
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -34,25 +36,18 @@ const Home = () => {
             id="tsparticles"
             particlesLoaded={particlesLoaded}
             options={particleProperties}
-          >
-            
-          </Particles>
+          ></Particles>
         </div>
       )}
-    {/* <div className='particles-content'>
-      <p>Yuktha Polepalli</p>
-    </div> */}
-    <About/>
-    <Projects/>
-    <Skills/>
-    <Experience/>
-    <Education/>
-    <Contact/>
-  
-   
-
+      <div className="particles-content">
+        <img src={ProfilePic} alt="profile pic" className="profile-pic" />
+        <div className="text-container">
+          <div>Hello all!!!</div>
+          <div>I am <TextAnimation words={animation_words} delay={100} infinite wordDelay={1000}/></div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

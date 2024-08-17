@@ -3,6 +3,7 @@
   top: 0;
   width: 100%;
   background-color: #00000070;
+  z-index: 200;
 }
 
 .navigation-bar{

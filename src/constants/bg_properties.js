@@ -3,7 +3,7 @@ export const particleProperties = {
   autoPlay: true,
   background: {
     color: {
-      value: "#000000",
+      value: "#181818",
     },
     image: "",
     position: "50% 50%",
