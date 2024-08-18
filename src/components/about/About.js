@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 
 import "./about.css";
-import LinkedInLogo from "../../images/linkedin.png";
-import ResumeLogo from "../../images/resume.png";
+import {IdCardIcon, LinkedInIcon, ResumeIcon} from "../../images";
 import { linkedIn_url, resume_link } from "../../constants/constants";
 import ResumeModal from "./ResumeModal";
 // import AboutLogo from "../../images/id-card.png";
@@ -25,7 +24,7 @@ const About = () => {
 
   return (
     <div className="section-container" id="about">
-      <div className="section-heading">About</div>
+      <div className="section-heading">About<img src={IdCardIcon} alt="id-card"/></div>
       <div className="section-body">
         {/* <img src={AboutLogo} width={50} height={50} alt="about" /> */}
         <div className="section-text">
@@ -49,13 +48,13 @@ const About = () => {
       </div>
 
       <div className="about-buttons">
-        <button onClick={onLinkedInClick}>
+        <button onClick={onLinkedInClick} rel="noopener noreferrer">
           Linkedin{" "}
-          <img src={LinkedInLogo}  alt="linkedin" />
+          <img src={LinkedInIcon}  alt="linkedin" />
         </button>
         <button onClick={onResumeClick}>
           My Resume
-          <img src={ResumeLogo} alt="resume" />
+          <img src={ResumeIcon} alt="resume" />
         </button>
       </div>
       <ResumeModal show={isOpen} handleClose={closeModal} pdfFile={resume_link}/>

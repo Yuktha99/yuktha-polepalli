@@ -3,10 +3,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import { useEffect, useState } from "react";
 import { particleProperties } from "../../constants/bg_properties";
-import ProfilePic from "../../images/profile_pic_new.JPG";
-import HandWaveEmogi from "../../images/goodbye.png";
-import DeveloperEmogi from "../../images/developer.png";
-
+import {ProfilePic,HelloIcon,DeveloperIcon} from "../../images";
 import "./home.css";
 // import TextAnimation from "./TextAnimation";
 
@@ -47,7 +44,7 @@ const Home = () => {
           <div className="hello-text">
             Hello all!!
             <img
-              src={HandWaveEmogi}
+              src={HelloIcon}
               alt="hand-wave"
             />{" "}
             I am Yuktha,{" "}
@@ -58,7 +55,7 @@ const Home = () => {
           <div>
             I specialize in <b>Full Stack Development</b>{" "}
             <img
-              src={DeveloperEmogi}
+              src={DeveloperIcon}
               alt="hand-wave"
             />
             .
