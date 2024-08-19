@@ -8,6 +8,7 @@ import ResumeIcon from "./resume.png";
 import SkillsIcon from "./skills.png";
 import InternshipIcon from './internship.png'
 import TeacherIcon from './teacher.png'
+import GraderIcon from './grader.png'
 
 export {
   HelloIcon,
@@ -19,5 +20,6 @@ export {
   ResumeIcon,
   SkillsIcon,
   InternshipIcon,
-  TeacherIcon
+  TeacherIcon,
+  GraderIcon
 };

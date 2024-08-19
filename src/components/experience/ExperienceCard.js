@@ -31,20 +31,22 @@ const ExperienceCard = ({
       <div className="description-section">
         <div className="header">{header}</div>
         <div className="sub-header">{subheader}</div>
+        {skills?.length &&
         <div className="tech-stack">
           <div>Used: </div>
           {skills.map((data, index) => (
             <img src={data.image} alt={data.name} key={index} />
           ))}
-        </div>
+        </div>}
         <p>
           {description}
+          {explanation &&
           <span>
             {" "}
             <Button variant="link" onClick={onLearnMoreClick}>
               Learn more
             </Button>
-          </span>
+          </span>}
         </p>
       </div>
       <ExperienceModal

@@ -1,4 +1,4 @@
-import { InternshipIcon, TeacherIcon } from "../../images";
+import { GraderIcon, InternshipIcon, TeacherIcon } from "../../images";
 import {
   CssLogo,
   DockerLogo,
@@ -14,8 +14,8 @@ import {
 export const experience_data = [
   {
     year: "June 2024 - Present",
-    header: "Hewlett Packard Enterprise Company",
-    subheader: "Software Engineer Intern",
+    subheader: "Hewlett Packard Enterprise Company",
+    header: "Software Engineer Intern",
     image: InternshipIcon,
     description:
       "Engineered backend services in Golang for HPE GreenLake, optimizing scalability and cost-efficiency. Developed an Apache Superset dashboard to visualize usage data and identify bottlenecks. Built React UI screens for data science workflows, collaborating with design and engineering teams.",
@@ -47,8 +47,8 @@ export const experience_data = [
   },
   {
     year: "April - June 2024",
-    header: "University of California Riverside",
-    subheader: "Teaching Assistant",
+    subheader: "University of California Riverside",
+    header: "Teaching Assistant",
     image: TeacherIcon,
     description:
       "Managed labs for 120 students in a course on distributed systems, covering web development, scalability, security, and both front-end (HTML, CSS, JavaScript, React, Redux) and back-end technologies (HTTP, URI, JSON).",
@@ -82,4 +82,11 @@ export const experience_data = [
     •Conducted, monitored and managed labs for 120 undergraduate students.
     `
   },
+  {
+    year: 'Jan - March 2024',
+    subheader: "University of California Riverside",
+    header: 'Computer Science Grader',
+    image: GraderIcon,
+    description: "Graded for BigData Management Labs, course work, assignments, projects and provided valuable feedback for around 120 undergraduate students."
+  }
 ];

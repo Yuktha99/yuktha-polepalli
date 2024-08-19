@@ -11,7 +11,7 @@ const ExperienceModal = ({
   isOpen,
   handleClose,
 }) => {
-  const description = explanation
+  const description = (explanation || '')
     .trim()
     .split("•")
     .filter((point) => point?.trim() !== "");

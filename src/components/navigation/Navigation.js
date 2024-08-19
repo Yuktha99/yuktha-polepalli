@@ -13,6 +13,7 @@ const Navigation = () => {
         data-bs-theme="dark"
         sticky="top"
         fixed="top"
+        collapseOnSelect
       >
         <Container>
           <Navbar.Brand className="navbar-brand-text" href="#home">
