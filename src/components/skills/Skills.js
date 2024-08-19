@@ -9,7 +9,7 @@ const Skills = () => {
       <div className="section-heading">Skills <img src={SkillsIcon} alt="skills"/></div>
       <div className='skills-section-body'>
       {skillsData.map((data,index)=>(
-        <SkillCard id = {index} header={data.header} skillsList={data.skills_list} animationImage={data.animation_image}/>
+        <SkillCard key = {index} header={data.header} skillsList={data.skills_list} animationImage={data.animation_image}/>
       ))}
       </div>
     </div>

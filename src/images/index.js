@@ -6,6 +6,8 @@ import LinkedInIcon from "./linkedin.png";
 import ProfilePic from "./profile_pic_new.JPG";
 import ResumeIcon from "./resume.png";
 import SkillsIcon from "./skills.png";
+import InternshipIcon from './internship.png'
+import TeacherIcon from './teacher.png'
 
 export {
   HelloIcon,
@@ -16,4 +18,6 @@ export {
   ProfilePic,
   ResumeIcon,
   SkillsIcon,
+  InternshipIcon,
+  TeacherIcon
 };

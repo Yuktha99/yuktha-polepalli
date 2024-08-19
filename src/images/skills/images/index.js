@@ -17,6 +17,9 @@ import PostgreSqlLogo from './postgres.png'
 import MySqlLogo from './mysql.png'
 import MongoDBLogo from './mongodb.png'
 import OracleLogo from './oracle.png'
+import PostmanLogo from './postman.svg'
+import DockerLogo from './docker.png'
+import KubernetesLogo from './kubernetes.png'
 
 export {
   ReactLogo,
@@ -37,5 +40,8 @@ export {
   PostgreSqlLogo,
   MySqlLogo,
   MongoDBLogo,
-  OracleLogo
+  OracleLogo,
+  PostmanLogo,
+  DockerLogo,
+  KubernetesLogo
 };
