@@ -3,6 +3,7 @@ import React from "react";
 import "./experience.css";
 import ExperienceCard from "./ExperienceCard";
 import { experience_data } from "./experienceData";
+import { BusyIcon, HelpIcon } from "../../images";
 
 const Experience = () => {
   const renderExperienceCard = (data,index) => (
@@ -23,6 +24,10 @@ const Experience = () => {
       <div className="section-heading">Experience</div>
       <div className="experience-section-body">
         <section id="conference-timeline">
+          <div className="looking-for-jobs">
+            <img src={BusyIcon} alt="looking for jobs"/>
+            <div>Currently looking for full time roles!! Any help would be appreciated<img src={HelpIcon} alt="help" className="help-img"/></div>
+          </div>
           <div className="timeline-start">&#9650;</div>
           <div className="conference-center-line"></div>
           <div className="conference-timeline-content">

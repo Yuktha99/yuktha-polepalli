@@ -9,6 +9,12 @@ import SkillsIcon from "./skills.png";
 import InternshipIcon from './internship.png'
 import TeacherIcon from './teacher.png'
 import GraderIcon from './grader.png'
+import SoftwareEngineerIcon from './computer-engineer.png'
+import SoftwareEngineer2Icon from './SE2.png'
+import SoftwareEngineer1Icon from './SE1.png'
+import NewInternIcon from './new-intern.png'
+import BusyIcon from './busy.gif'
+import HelpIcon from './care.gif'
 
 export {
   HelloIcon,
@@ -21,5 +27,11 @@ export {
   SkillsIcon,
   InternshipIcon,
   TeacherIcon,
-  GraderIcon
+  GraderIcon,
+  SoftwareEngineerIcon,
+  SoftwareEngineer2Icon,
+  SoftwareEngineer1Icon,
+  NewInternIcon,
+  BusyIcon,
+  HelpIcon
 };

@@ -3,6 +3,20 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 20px;
   width: 75%;
+  height: 700px;
+  overflow-y: scroll;
+}
+
+.experience-section-body .looking-for-jobs img{
+ width: 70px;
+ height: 70px;
+}
+
+.help-img{
+  width: 25px !important;
+  height: 25px !important;
+  margin-left: 5px;
+  margin-bottom:5px ;
 }
 
 /*===== Vertical Timeline =====*/
@@ -24,6 +38,7 @@
   top: 10px;
   left: 50%;
   margin-left: -1px;
+  margin-top: 125px;
   background: #d2d3d3;
   z-index: 5;
 }
@@ -72,6 +87,7 @@
 @media only screen and (max-width: 800px) {
   .experience-section-body {
     width: 95%;
+    height: 500px;
   }
 
   #conference-timeline .timeline-start,
@@ -205,7 +221,7 @@
   display: inline-block;
   padding: 5px 15px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 18px;
   color: #000;
   font-weight: bold;
   margin-bottom: -10px;
@@ -240,7 +256,19 @@
   font-weight: bold;
 }
 
+.experience-card .description-section .header{
+  font-weight: 900;
+}
+
 @media only screen and (max-width: 600px) {
+  .experience-card .year-and-image img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: -5px;
+  }
+  .experience-card .year {
+    font-size: 15px;
+  }
   .experience-modal .modal-subheader {
     flex-direction: column;
     align-items: flex-start;
