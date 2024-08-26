@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/yuktha-polepalli/static/css/main.c0eea876.css",
-    "main.js": "/yuktha-polepalli/static/js/main.2e1712a0.js",
-    "static/js/453.2a416b5b.chunk.js": "/yuktha-polepalli/static/js/453.2a416b5b.chunk.js",
+    "main.css": "/yuktha-polepalli/static/css/main.8da57782.css",
+    "main.js": "/yuktha-polepalli/static/js/main.350ca9d2.js",
+    "static/js/453.8c7a0d1e.chunk.js": "/yuktha-polepalli/static/js/453.8c7a0d1e.chunk.js",
+    "static/media/skill.gif": "/yuktha-polepalli/static/media/skill.576eab31845e163c46c9.gif",
     "static/media/care.gif": "/yuktha-polepalli/static/media/care.fe7c0ad6a858f26d1522.gif",
+    "static/media/cycling.gif": "/yuktha-polepalli/static/media/cycling.208f20523c9e0fadac25.gif",
+    "static/media/motorbike.gif": "/yuktha-polepalli/static/media/motorbike.b3c812844a38dfcc6873.gif",
     "static/media/frontend.gif": "/yuktha-polepalli/static/media/frontend.18eaaa51510d160e1898.gif",
     "static/media/busy.gif": "/yuktha-polepalli/static/media/busy.880ae12118292da651b5.gif",
+    "static/media/convertible-car.gif": "/yuktha-polepalli/static/media/convertible-car.239d7e6e103a85406ac7.gif",
     "static/media/database.gif": "/yuktha-polepalli/static/media/database.317f48c34bf1877610dd.gif",
     "static/media/prog_lang.gif": "/yuktha-polepalli/static/media/prog_lang.765de3300f72b9d18fde.gif",
+    "static/media/walk.gif": "/yuktha-polepalli/static/media/walk.e38e45c4c68e8f24a792.gif",
     "static/media/backend_animation.gif": "/yuktha-polepalli/static/media/backend_animation.ac8c018e7d283a95ba7c.gif",
+    "static/media/education.gif": "/yuktha-polepalli/static/media/education.6214dc9b90f8eea331d5.gif",
     "static/media/kubernetes.png": "/yuktha-polepalli/static/media/kubernetes.052eeea9ddfff9070dad.png",
     "static/media/profile_pic_new.JPG": "/yuktha-polepalli/static/media/profile_pic_new.e77dc42271c993c43c15.JPG",
     "static/media/enthusiasm.png": "/yuktha-polepalli/static/media/enthusiasm.3f9ae7a91d846a830da8.png",
@@ -38,12 +44,12 @@
     "static/media/typescript.webp": "/yuktha-polepalli/static/media/typescript.cf26c09e3df5ad08deb4.webp",
     "index.html": "/yuktha-polepalli/index.html",
     "static/media/fastapi.svg": "/yuktha-polepalli/static/media/fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
-    "main.c0eea876.css.map": "/yuktha-polepalli/static/css/main.c0eea876.css.map",
-    "main.2e1712a0.js.map": "/yuktha-polepalli/static/js/main.2e1712a0.js.map",
-    "453.2a416b5b.chunk.js.map": "/yuktha-polepalli/static/js/453.2a416b5b.chunk.js.map"
+    "main.8da57782.css.map": "/yuktha-polepalli/static/css/main.8da57782.css.map",
+    "main.350ca9d2.js.map": "/yuktha-polepalli/static/js/main.350ca9d2.js.map",
+    "453.8c7a0d1e.chunk.js.map": "/yuktha-polepalli/static/js/453.8c7a0d1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0eea876.css",
-    "static/js/main.2e1712a0.js"
+    "static/css/main.8da57782.css",
+    "static/js/main.350ca9d2.js"
   ]
 }
