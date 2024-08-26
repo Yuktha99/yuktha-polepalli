@@ -2,13 +2,13 @@ import "./App.css";
 import Home from "./components/home/Home";
 import Navigation from "./components/navigation/Navigation";
 import About from "./components/about/About";
-import Skills from "./components/skills/Skills";
-import Projects from "./components/projects/Projects";
+import Skills from "./components/skills/Skills";  
 import Contact from "./components/contact/Contact";
 import Education from "./components/education/Education";
 import Experience from "./components/experience/Experience";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/footer/Footer";
+import Achievements from "./components/achievements/Projects";
 
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
       <About />
       <Experience />
       <Skills />
-      <Projects />
       <Education />
+      <Achievements />
       <Contact />
       <Footer />
     </div>

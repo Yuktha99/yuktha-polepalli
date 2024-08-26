@@ -32,12 +32,13 @@ const Navigation = () => {
                 <Nav.Link href="#skills">Skills</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#projects">Projects</Nav.Link>
-              </Nav.Item>
-              
-              <Nav.Item>
                 <Nav.Link href="#education">Education</Nav.Link>
               </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="#achievements">Achievements</Nav.Link>
+              </Nav.Item>
+              
+              
               <Nav.Item>
                 <Nav.Link href="#contact">Contact</Nav.Link>
               </Nav.Item>

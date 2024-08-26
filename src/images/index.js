@@ -6,6 +6,7 @@ import LinkedInIcon from "./linkedin.png";
 import ProfilePic from "./profile_pic_new.JPG";
 import ResumeIcon from "./resume.png";
 import SkillsIcon from "./skills.png";
+import SkillsAnimatedIcon from './skill.gif'
 import InternshipIcon from './internship.png'
 import TeacherIcon from './teacher.png'
 import GraderIcon from './grader.png'
@@ -15,6 +16,11 @@ import SoftwareEngineer1Icon from './SE1.png'
 import NewInternIcon from './new-intern.png'
 import BusyIcon from './busy.gif'
 import HelpIcon from './care.gif'
+import EducationIcon from './education.gif'
+import WalkIcon from './walk.gif'
+import CycleIcon from './cycling.gif'
+import BikeIcon from './motorbike.gif'
+import CarIcon from './convertible-car.gif'
 
 export {
   HelloIcon,
@@ -33,5 +39,11 @@ export {
   SoftwareEngineer1Icon,
   NewInternIcon,
   BusyIcon,
-  HelpIcon
+  HelpIcon,
+  SkillsAnimatedIcon,
+  EducationIcon,
+  WalkIcon,
+  CycleIcon,
+  BikeIcon,
+  CarIcon
 };

@@ -28,6 +28,7 @@ const Experience = () => {
             <img src={BusyIcon} alt="looking for jobs"/>
             <div>Currently looking for full time roles!! Any help would be appreciated<img src={HelpIcon} alt="help" className="help-img"/></div>
           </div>
+          <div className="experience-data-container">
           <div className="timeline-start">&#9650;</div>
           <div className="conference-center-line"></div>
           <div className="conference-timeline-content">
@@ -43,6 +44,7 @@ const Experience = () => {
             ))}
           </div>
           <div className="timeline-end"></div>
+          </div>
         </section>
       </div>
     </div>

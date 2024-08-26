@@ -3,18 +3,18 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import { useEffect, useState } from "react";
 import { particleProperties } from "../../constants/bg_properties";
-import {ProfilePic,HelloIcon,DeveloperIcon} from "../../images";
+import {ProfilePic,HelloIcon} from "../../images";
 import "./home.css";
-// import TextAnimation from "./TextAnimation";
+import TextAnimation from "./TextAnimation";
 
 const Home = () => {
   const [init, setInit] = useState(false);
 
-  // const animation_words = [
-  //   'Yuktha',
-  //   'a Software Engineer',
-  //   'a Full Stack Developer'
-  // ]
+  const animation_words = [
+    'Full Stack Development',
+    'Frontend Development',
+    'Backend Development'
+  ]
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -52,15 +52,16 @@ const Home = () => {
           <div>
             Currently interning as a <b>Software Developer</b> at HPE.
           </div>
-          <div>
+          {/* <div>
             I specialize in <b>Full Stack Development</b>{" "}
             <img
               src={DeveloperIcon}
               alt="hand-wave"
             />
             .
+          </div> */}
+          <div>I specialize in <b><TextAnimation words={animation_words} delay={100} infinite wordDelay={1000}/></b>
           </div>
-          {/* <div>I am <TextAnimation words={animation_words} delay={100} infinite wordDelay={1000}/></div> */}
         </div>
       </div>
     </div>
