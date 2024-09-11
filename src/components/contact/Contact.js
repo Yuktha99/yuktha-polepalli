@@ -2,25 +2,12 @@ import React from "react";
 
 import "./contact.css";
 import {
-  ChatIcon,
-  EmailIcon,
-  EmploymentIcon,
-  ExternalLinkIcon,
-  HandshakeIcon,
-  LinkedInIcon,
-  ResumeIcon,
+  EmailIcon
 } from "../../images";
-import { email_address, linkedIn_url, resume_external_link } from "../../constants/constants";
+import { email_address } from "../../constants/constants";
 
 const Contact = () => {
-  const onResumeClick = () => {
-    window.open(resume_external_link, "_blank");
-  };
-
-  const onLinkedInClick = () =>{
-    window.open(linkedIn_url, "_blank");
-  }
-
+  
   const handleEmailClick = () => {
     // Opens the user's default email client with pre-filled details
     window.location.href = `mailto:${email_address}`;
@@ -32,21 +19,15 @@ const Contact = () => {
       <div className="section-heading">Contact</div>
       <div className="contact-section-body">
         <div className="contact-text">
-          I’d love to connect
+          Please reach out to me at  <b onClick={handleEmailClick}>
+            <u>{email_address}{" "}</u>
+          </b>
           <span>
-            <img src={HandshakeIcon} alt="handshake" />
-          </span>
-          , learn from each other, and explore new opportunities
-          <span>
-            <img src={EmploymentIcon} alt="employment" />
-          </span>
-          . Let’s chat!!
-          <span>
-            <img src={ChatIcon} alt="chat" />
-          </span>
+              <img src={EmailIcon} alt="email" />
+            </span>
         </div>
 
-        <div className="buttons" onClick={onResumeClick}>
+        {/* <div className="buttons" onClick={onResumeClick}>
           <b>
             <span>
               <img src={ResumeIcon} alt="resume" />
@@ -76,7 +57,7 @@ const Contact = () => {
             </span>
             <u>{email_address}{" "}</u>
           </b>
-        </div>
+        </div> */}
       </div>
     </div>
   );
