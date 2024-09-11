@@ -1,0 +1,35 @@
+.contact-text img{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.contact-text{
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.contact-section-body .buttons{
+  cursor: pointer;
+  padding:5px 10px;
+  width: fit-content;
+}
+.contact-section-body img{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+}
+
+.external-link{
+  width: 10px !important;
+  height: 10px !important;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-text{
+    font-size: small;
+    margin-bottom: 20px;
+  }
+}

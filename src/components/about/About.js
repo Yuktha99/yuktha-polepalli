@@ -45,6 +45,8 @@ const About = () => {
           in collaborative environments where I can contribute to innovative
           projects
         </div>
+        <br></br>
+        <div><b>I am graduating December 2024.</b></div>
       </div>
 
       <div className="about-buttons">

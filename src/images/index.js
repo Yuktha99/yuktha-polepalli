@@ -21,6 +21,11 @@ import WalkIcon from './walk.gif'
 import CycleIcon from './cycling.gif'
 import BikeIcon from './motorbike.gif'
 import CarIcon from './convertible-car.gif'
+import HandshakeIcon from './handshake.gif'
+import EmploymentIcon from './employment.gif'
+import ChatIcon from './chat.gif'
+import ExternalLinkIcon from './external-link.png'
+import EmailIcon from './email.png'
 
 export {
   HelloIcon,
@@ -45,5 +50,10 @@ export {
   WalkIcon,
   CycleIcon,
   BikeIcon,
-  CarIcon
+  CarIcon,
+  HandshakeIcon,
+  EmploymentIcon,
+  ChatIcon,
+  ExternalLinkIcon,
+  EmailIcon
 };
