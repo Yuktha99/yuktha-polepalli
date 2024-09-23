@@ -50,7 +50,7 @@ const Home = () => {
             I am Yuktha,{" "}
           </div>
           <div>
-            Currently interning as a <b>Software Developer</b> at HPE.
+            Currently pursuing Master's in Computer Science
           </div>
           {/* <div>
             I specialize in <b>Full Stack Development</b>{" "}
