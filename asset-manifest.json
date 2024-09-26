@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yuktha-polepalli/static/css/main.1de8a48b.css",
-    "main.js": "/yuktha-polepalli/static/js/main.9aa092e7.js",
+    "main.js": "/yuktha-polepalli/static/js/main.b365370d.js",
     "static/js/453.8c7a0d1e.chunk.js": "/yuktha-polepalli/static/js/453.8c7a0d1e.chunk.js",
     "static/media/employment.gif": "/yuktha-polepalli/static/media/employment.eb9339c5c8c0619b0d65.gif",
     "static/media/skill.gif": "/yuktha-polepalli/static/media/skill.576eab31845e163c46c9.gif",
@@ -19,6 +19,7 @@
     "static/media/backend_animation.gif": "/yuktha-polepalli/static/media/backend_animation.ac8c018e7d283a95ba7c.gif",
     "static/media/education.gif": "/yuktha-polepalli/static/media/education.6214dc9b90f8eea331d5.gif",
     "static/media/kubernetes.png": "/yuktha-polepalli/static/media/kubernetes.052eeea9ddfff9070dad.png",
+    "static/media/jenkinslogo.png": "/yuktha-polepalli/static/media/jenkinslogo.dd67192b4ea76a8d3503.png",
     "static/media/profile_pic_new.JPG": "/yuktha-polepalli/static/media/profile_pic_new.e77dc42271c993c43c15.JPG",
     "static/media/enthusiasm.png": "/yuktha-polepalli/static/media/enthusiasm.3f9ae7a91d846a830da8.png",
     "static/media/joy.png": "/yuktha-polepalli/static/media/joy.2792ae1dec9ea7496675.png",
@@ -37,8 +38,8 @@
     "static/media/grader.png": "/yuktha-polepalli/static/media/grader.65d9b42340f05ca366c8.png",
     "static/media/resume.png": "/yuktha-polepalli/static/media/resume.60c4f53d340d7c84130f.png",
     "static/media/skills.png": "/yuktha-polepalli/static/media/skills.19b2e11b35dfeb7d012f.png",
-    "static/media/flask.png": "/yuktha-polepalli/static/media/flask.1bcff0d542f7fc985cb4.png",
     "static/media/internship.png": "/yuktha-polepalli/static/media/internship.fba1ad9ae2f426be37b1.png",
+    "static/media/gologo.png": "/yuktha-polepalli/static/media/gologo.1c2f0137484e37c9fdc6.png",
     "static/media/c.png": "/yuktha-polepalli/static/media/c.bbbbbabc8c191bfb99bf.png",
     "static/media/id-card.png": "/yuktha-polepalli/static/media/id-card.7f388a27c1cd23161d27.png",
     "static/media/css.png": "/yuktha-polepalli/static/media/css.ebaa114765b2a440ad22.png",
@@ -49,11 +50,11 @@
     "index.html": "/yuktha-polepalli/index.html",
     "static/media/fastapi.svg": "/yuktha-polepalli/static/media/fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
     "main.1de8a48b.css.map": "/yuktha-polepalli/static/css/main.1de8a48b.css.map",
-    "main.9aa092e7.js.map": "/yuktha-polepalli/static/js/main.9aa092e7.js.map",
+    "main.b365370d.js.map": "/yuktha-polepalli/static/js/main.b365370d.js.map",
     "453.8c7a0d1e.chunk.js.map": "/yuktha-polepalli/static/js/453.8c7a0d1e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1de8a48b.css",
-    "static/js/main.9aa092e7.js"
+    "static/js/main.b365370d.js"
   ]
 }
