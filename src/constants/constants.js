@@ -1,6 +1,6 @@
 export const linkedIn_url = "https://www.linkedin.com/in/yuktha-polepalli/"
-export const resume_link = "https://drive.google.com/file/d/1FIAMvkSiN91zdTi2w3dCouJa2Kz_liMZ/preview"
+export const resume_link = "https://drive.google.com/file/d/1IdNq-Gvc7OE-ttoyGJFSnQ_2sap0bwwt/preview"
 export const masters_transcript_link = "https://drive.google.com/file/d/1QMcP1VWFJWi4WLhCo-CC8kBZwWFNG36A/preview"
 export const bachelors_transcript_link = "https://drive.google.com/file/d/1HPC7ff7W8C7LBHGehZ9VdVGHMzhzDJGR/preview"
-export const resume_external_link = "https://drive.google.com/file/d/1FIAMvkSiN91zdTi2w3dCouJa2Kz_liMZ/view?usp=sharing"
+export const resume_external_link = "https://drive.google.com/file/d/1IdNq-Gvc7OE-ttoyGJFSnQ_2sap0bwwt/view?usp=sharing"
 export const email_address = "pyuktha.99@gmail.com"

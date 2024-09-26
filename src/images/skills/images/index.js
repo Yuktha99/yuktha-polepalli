@@ -7,11 +7,11 @@ import TSLogo from "./typescript.webp";
 import PythonLogo from "./python.png";
 import CLogo from "./c.png";
 import CppLogo from "./cpp.png";
-import GoLogo from "./golang.png";
+import GoLogo from "./gologo.png";
 import JavaLogo from './java.png'
-import FlaskLogo from './flask.png'
+import FlaskLogo from './flaskicon.png'
 import FastAPILogo from './fastapi.svg'
-import NodeLogo from './nodsjs.png'
+import NodeLogo from './nodejs.png'
 import RestAPILogo from './restapi.png'
 import PostgreSqlLogo from './postgres.png'
 import MySqlLogo from './mysql.png'
@@ -20,6 +20,8 @@ import OracleLogo from './oracle.png'
 import PostmanLogo from './postman.svg'
 import DockerLogo from './docker.png'
 import KubernetesLogo from './kubernetes.png'
+import JenkinsLogo from './jenkinslogo.png'
+import GitLogo from './gitlogo.png'
 
 export {
   ReactLogo,
@@ -43,5 +45,7 @@ export {
   OracleLogo,
   PostmanLogo,
   DockerLogo,
-  KubernetesLogo
+  KubernetesLogo,
+  JenkinsLogo,
+  GitLogo
 };
