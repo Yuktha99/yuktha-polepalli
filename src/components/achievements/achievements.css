@@ -1,0 +1,180 @@
+.achievements-section-body {
+  border: 0.1px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.achievemnts-data-container {
+  overflow-y: scroll;
+  height: 700px;
+}
+
+
+
+/*===== // Vertical Timeline =====*/
+
+/*===== Resonsive Vertical Timeline =====*/
+@media only screen and (max-width: 800px) {
+  .achievements-section-body {
+    width: 95%;
+  }
+  .achievements-data-container {
+    height: 500px;
+  }
+}
+/*===== // Resonsive Vertical Timeline =====*/
+
+/* achievements card */
+
+.achievements-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  border: 0.1px solid d2d3d3;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  margin: 1px;
+  position: relative;
+  z-index: 200;
+  width: 250px;
+  margin: 10px;
+}
+
+.achievements-card:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.achievements-card .year-and-image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.achievements-card .horizontal-line {
+  background-color: #7dd3ed;
+  height: 15px;
+  width: 100%;
+}
+
+.achievements-card .description-section {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: start;
+  flex-grow: 1;
+}
+
+.achievements-card img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: -10px;
+  z-index: 10;
+}
+
+.achievements-card img {
+  animation: rotateIcon 4s infinite;
+}
+
+@keyframes rotateIcon {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.achievements-card .header,
+.achievements-card .sub-header {
+  color: #000;
+  font-weight: bold;
+}
+
+.achievements-card p {
+  font-size: 12px;
+  color: #555;
+}
+
+.achievements-card .year {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: -10px;
+  z-index: 10;
+}
+
+.achievements-card .tech-stack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.achievements-card .description-section img {
+  width: 100%;
+  height: 200px;
+  margin: 5px;
+  animation: none;
+}
+
+.achievements-modal .modal-body {
+  padding: 20px;
+}
+
+.achievements-modal .modal-subheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.achievements-card .description-section .header {
+  font-weight: 900;
+}
+
+.achievements-card .description-section button{
+    margin: 2px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .achievements-card .year-and-image img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -5px;
+  }
+  .achievements-card .year {
+    font-size: 15px;
+  }
+  .achievements-modal .modal-subheader {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 15px;
+  }
+
+  .achievements-modal .modal-header {
+    font-size: 15px;
+  }
+
+  .achievements-modal .description-section {
+    font-size: 12px;
+  }
+}

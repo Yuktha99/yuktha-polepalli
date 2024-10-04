@@ -4,3 +4,7 @@ export const masters_transcript_link = "https://drive.google.com/file/d/1QMcP1VW
 export const bachelors_transcript_link = "https://drive.google.com/file/d/1HPC7ff7W8C7LBHGehZ9VdVGHMzhzDJGR/preview"
 export const resume_external_link = "https://drive.google.com/file/d/1IdNq-Gvc7OE-ttoyGJFSnQ_2sap0bwwt/view?usp=sharing"
 export const email_address = "pyuktha.99@gmail.com"
+export const rank_certificate = "https://drive.google.com/file/d/1NPkL3LWgjTE5_0UALRC8ikdnxBdrTEU5/preview"
+export const spot_award_2022 = "https://drive.google.com/file/d/1aqnr1z1NgxRHhRTdv8cUxcFA5pOZ7MdQ/preview"
+export const spot_award_may_2022 = "https://drive.google.com/file/d/1Ef-2WNa3TkOMoTqSyii9giJPRcvNLm5g/preview"
+export const top_impactor_preview = "https://drive.google.com/file/d/1R4Vhq-G1pFOV-McMVOL9317x3LJQ1H3J/preview"

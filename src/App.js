@@ -8,7 +8,7 @@ import Education from "./components/education/Education";
 import Experience from "./components/experience/Experience";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/footer/Footer";
-import Achievements from "./components/achievements/Projects";
+import Achievements from "./components/achievements/Achievements";
 
 
 function App() {

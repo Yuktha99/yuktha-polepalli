@@ -37,8 +37,6 @@ const Navigation = () => {
               <Nav.Item>
                 <Nav.Link href="#achievements">Achievements</Nav.Link>
               </Nav.Item>
-              
-              
               <Nav.Item>
                 <Nav.Link href="#contact">Contact</Nav.Link>
               </Nav.Item>

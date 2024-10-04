@@ -26,6 +26,10 @@ import EmploymentIcon from './employment.gif'
 import ChatIcon from './chat.gif'
 import ExternalLinkIcon from './external-link.png'
 import EmailIcon from './email.png'
+import AchievementsIcon from './medal.gif'
+import GoldMedalIcon from './gold_medal.png'
+import SpotAward from './spot_award.png'
+import ImpactIcon from './impact.png'
 
 export {
   HelloIcon,
@@ -55,5 +59,9 @@ export {
   EmploymentIcon,
   ChatIcon,
   ExternalLinkIcon,
-  EmailIcon
+  EmailIcon,
+  AchievementsIcon,
+  GoldMedalIcon,
+  SpotAward,
+  ImpactIcon
 };
