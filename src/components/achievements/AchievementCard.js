@@ -44,7 +44,7 @@ const AchievementCard = ({
       <div className="description-section">
         <div className="header">{header}</div>
         <div className="sub-header">{subheader}</div>
-        <img src={photo} alt="achievement" width="100%" style={{height: photoHeight?photoHeight:'150px'}}/>
+        <img src={photo} alt="achievement" width="100%" style={{height: photoHeight?photoHeight:'180px'}}/>
         <p>{description}</p>
 
         {video && (
