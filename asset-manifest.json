@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yuktha-polepalli/static/css/main.1de8a48b.css",
-    "main.js": "/yuktha-polepalli/static/js/main.b365370d.js",
+    "main.css": "/yuktha-polepalli/static/css/main.43d51d47.css",
+    "main.js": "/yuktha-polepalli/static/js/main.20380738.js",
     "static/js/453.8c7a0d1e.chunk.js": "/yuktha-polepalli/static/js/453.8c7a0d1e.chunk.js",
     "static/media/employment.gif": "/yuktha-polepalli/static/media/employment.eb9339c5c8c0619b0d65.gif",
     "static/media/skill.gif": "/yuktha-polepalli/static/media/skill.576eab31845e163c46c9.gif",
@@ -13,22 +13,30 @@
     "static/media/frontend.gif": "/yuktha-polepalli/static/media/frontend.18eaaa51510d160e1898.gif",
     "static/media/busy.gif": "/yuktha-polepalli/static/media/busy.880ae12118292da651b5.gif",
     "static/media/convertible-car.gif": "/yuktha-polepalli/static/media/convertible-car.239d7e6e103a85406ac7.gif",
+    "static/media/medal.gif": "/yuktha-polepalli/static/media/medal.f35520636b231e656103.gif",
     "static/media/database.gif": "/yuktha-polepalli/static/media/database.317f48c34bf1877610dd.gif",
     "static/media/prog_lang.gif": "/yuktha-polepalli/static/media/prog_lang.765de3300f72b9d18fde.gif",
     "static/media/walk.gif": "/yuktha-polepalli/static/media/walk.e38e45c4c68e8f24a792.gif",
     "static/media/backend_animation.gif": "/yuktha-polepalli/static/media/backend_animation.ac8c018e7d283a95ba7c.gif",
+    "static/media/top_impactor.jpeg": "/yuktha-polepalli/static/media/top_impactor.79dc4d2333a430414560.jpeg",
     "static/media/education.gif": "/yuktha-polepalli/static/media/education.6214dc9b90f8eea331d5.gif",
     "static/media/kubernetes.png": "/yuktha-polepalli/static/media/kubernetes.052eeea9ddfff9070dad.png",
     "static/media/jenkinslogo.png": "/yuktha-polepalli/static/media/jenkinslogo.dd67192b4ea76a8d3503.png",
     "static/media/profile_pic_new.JPG": "/yuktha-polepalli/static/media/profile_pic_new.e77dc42271c993c43c15.JPG",
+    "static/media/88E578C4-86B0-4C94-8D13-BBEF52BE2E5A.jpeg": "/yuktha-polepalli/static/media/88E578C4-86B0-4C94-8D13-BBEF52BE2E5A.67f899b954e4166e1f7b.jpeg",
+    "static/media/spot_award_2022.jpeg": "/yuktha-polepalli/static/media/spot_award_2022.aafb9fc00b612306283c.jpeg",
+    "static/media/spot_award_may_2022.jpeg": "/yuktha-polepalli/static/media/spot_award_may_2022.73325c1e400978939a36.jpeg",
     "static/media/enthusiasm.png": "/yuktha-polepalli/static/media/enthusiasm.3f9ae7a91d846a830da8.png",
     "static/media/joy.png": "/yuktha-polepalli/static/media/joy.2792ae1dec9ea7496675.png",
     "static/media/goodbye.png": "/yuktha-polepalli/static/media/goodbye.a93a4e59ed58beb74156.png",
+    "static/media/spot_award.png": "/yuktha-polepalli/static/media/spot_award.10aa7eb9064781338e40.png",
     "static/media/SE2.png": "/yuktha-polepalli/static/media/SE2.e41613ce3d265f0940e4.png",
     "static/media/hand-waving.png": "/yuktha-polepalli/static/media/hand-waving.8374ad3a3b74349e08ed.png",
     "static/media/cpp.png": "/yuktha-polepalli/static/media/cpp.053a898d752aef72651e.png",
     "static/media/computer-engineer.png": "/yuktha-polepalli/static/media/computer-engineer.3dc8d6be18fb0318075d.png",
     "static/media/party.png": "/yuktha-polepalli/static/media/party.7f45eadcb05ea926c48e.png",
+    "static/media/gold_medal.png": "/yuktha-polepalli/static/media/gold_medal.b884151fbb05c35b57f3.png",
+    "static/media/impact.png": "/yuktha-polepalli/static/media/impact.82c43be0b2d68d95ae0a.png",
     "static/media/SE1.png": "/yuktha-polepalli/static/media/SE1.dea77e0436cf8821a26c.png",
     "static/media/new-intern.png": "/yuktha-polepalli/static/media/new-intern.427498e7d42f1ec6655a.png",
     "static/media/email.png": "/yuktha-polepalli/static/media/email.6673f8e5c38e3cdc0faf.png",
@@ -49,12 +57,12 @@
     "static/media/typescript.webp": "/yuktha-polepalli/static/media/typescript.cf26c09e3df5ad08deb4.webp",
     "index.html": "/yuktha-polepalli/index.html",
     "static/media/fastapi.svg": "/yuktha-polepalli/static/media/fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
-    "main.1de8a48b.css.map": "/yuktha-polepalli/static/css/main.1de8a48b.css.map",
-    "main.b365370d.js.map": "/yuktha-polepalli/static/js/main.b365370d.js.map",
+    "main.43d51d47.css.map": "/yuktha-polepalli/static/css/main.43d51d47.css.map",
+    "main.20380738.js.map": "/yuktha-polepalli/static/js/main.20380738.js.map",
     "453.8c7a0d1e.chunk.js.map": "/yuktha-polepalli/static/js/453.8c7a0d1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1de8a48b.css",
-    "static/js/main.b365370d.js"
+    "static/css/main.43d51d47.css",
+    "static/js/main.20380738.js"
   ]
 }
