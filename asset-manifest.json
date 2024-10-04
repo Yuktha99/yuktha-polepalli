@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yuktha-polepalli/static/css/main.43d51d47.css",
-    "main.js": "/yuktha-polepalli/static/js/main.20380738.js",
+    "main.css": "/yuktha-polepalli/static/css/main.ed2bbcfe.css",
+    "main.js": "/yuktha-polepalli/static/js/main.2d944cf0.js",
     "static/js/453.8c7a0d1e.chunk.js": "/yuktha-polepalli/static/js/453.8c7a0d1e.chunk.js",
     "static/media/employment.gif": "/yuktha-polepalli/static/media/employment.eb9339c5c8c0619b0d65.gif",
     "static/media/skill.gif": "/yuktha-polepalli/static/media/skill.576eab31845e163c46c9.gif",
@@ -57,12 +57,12 @@
     "static/media/typescript.webp": "/yuktha-polepalli/static/media/typescript.cf26c09e3df5ad08deb4.webp",
     "index.html": "/yuktha-polepalli/index.html",
     "static/media/fastapi.svg": "/yuktha-polepalli/static/media/fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
-    "main.43d51d47.css.map": "/yuktha-polepalli/static/css/main.43d51d47.css.map",
-    "main.20380738.js.map": "/yuktha-polepalli/static/js/main.20380738.js.map",
+    "main.ed2bbcfe.css.map": "/yuktha-polepalli/static/css/main.ed2bbcfe.css.map",
+    "main.2d944cf0.js.map": "/yuktha-polepalli/static/js/main.2d944cf0.js.map",
     "453.8c7a0d1e.chunk.js.map": "/yuktha-polepalli/static/js/453.8c7a0d1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43d51d47.css",
-    "static/js/main.20380738.js"
+    "static/css/main.ed2bbcfe.css",
+    "static/js/main.2d944cf0.js"
   ]
 }
