@@ -107,6 +107,7 @@
     text-align: start;
     margin-left: 20px;
     margin-top: -5px;
+    display: none;
   }
   #conference-timeline .conference-center-line {
     margin-left: 0;
