@@ -19,10 +19,16 @@
 /*===== Resonsive Vertical Timeline =====*/
 @media only screen and (max-width: 800px) {
   .achievements-section-body {
-    width: 95%;
+    width: 100%;
+    display: flex;
+    align-items: center;
   }
   .achievements-data-container {
     height: 500px;
+  }
+
+  .achievements-card{
+    width: 100% !important;
   }
 }
 /*===== // Resonsive Vertical Timeline =====*/
