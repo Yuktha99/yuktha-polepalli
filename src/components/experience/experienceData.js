@@ -23,7 +23,7 @@ import {
 
 export const experience_data = [
   {
-    year: "June 2024 - Present",
+    year: "June - September 2024",
     subheader: "Hewlett Packard Enterprise Company",
     header: "Software Engineer Intern",
     image: InternshipIcon,
