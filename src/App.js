@@ -9,6 +9,7 @@ import Experience from "./components/experience/Experience";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/footer/Footer";
 import Achievements from "./components/achievements/Achievements";
+import Connect from "./components/connect/Connect";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Achievements />
       <Contact />
       <Footer />
+      <Connect/>
     </div>
   );
 }

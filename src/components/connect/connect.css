@@ -1,0 +1,46 @@
+.lets-connect {
+  position: fixed;
+  z-index: 100;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  bottom: 30px;
+  right: 40px;
+}
+
+.lets-connect img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.popover img{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.lets-connect button {
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  border-width: 1px;
+}
+
+.buttons {
+  cursor: pointer;
+  padding: 5px 10px;
+  width: fit-content;
+}
+.contact-section-body img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+}
+
+.external-link {
+  width: 10px !important;
+  height: 10px !important;
+  margin-bottom: 5px;
+}
